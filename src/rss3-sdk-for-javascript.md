@@ -42,6 +42,12 @@ Then reference `rss3` in our project.
 import RSS3, { utils as RSS3Utils } from 'rss3';
 ```
 
+or
+
+```js
+const RSS3 = require('rss3').default;
+```
+
 ## Getting Started
 
 The first step in using the sdk is to initialise it.
